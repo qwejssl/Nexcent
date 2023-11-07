@@ -1,10 +1,182 @@
 html{
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
 }
 
 *,
 *::before,
 *::after{
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    background-color: #F5F7FA;
+}
+
+.container{
+    max-width: 1215px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.log_buttons{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.log_buttons-item{
+    color: #4CAF4F;
+}
+
+.sing_up-but{
+    padding: 10px 20px;
+    background-color:  #4CAF4F;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.footer{
+    background-color: #263238;
+    color: #717171;
+    padding: 64px 0;
+}
+
+.inner_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_under-text{
+    margin-top: 40px;
+}
+
+.margin0{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.social_media{
+    display: flex;
+    gap: 16px;
+}
+
+.info_section-title{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.info_section-item{
+    margin-top: 12px;
+}
+
+.email_sectiom{
+}
+
+.email_section-title{
+    color: #fff;
+}
+
+.input_block{
+    align-items: center;
+    padding: 9px 11px 13px 11px;
+}
+
+.email_input{
+    background-color: #4D4D4D;
+    border: none;
+}
+
+.email_input::placeholder{
+    color: #717171;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first_screen{
+    padding: 95px 0;
+    background-color: #F5F7FA;
+}
+
+.info_block{
+    display: flex;
+    gap: 105px;
+}
+
+.info_text{
+    max-width: 680px;
+    margin-top: 65px;
+}
+
+.main_title{
+    font-size: 64px;
+}
+
+.green{
+    color: #4CAF4F;
+}
+
+.under_text{
+    color: #717171;
+    margin-top: 16px;
+    margin-bottom: 46px;
+}
+
+.register_button{
+    padding: 14px 32px;
+    background-color:  #4CAF4F;
+    color: #fff;
+    border-radius: 6px;
+    
+}
