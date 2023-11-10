@@ -1,32 +1,17 @@
-let slideIndex = 0;
-showSlides(slideIndex);
+const popup = document.querySelector('.popup_section');
+const openBtn = document.getElementById('open_btn');
+const closeBtn = document.querySelector('.close_btn');
 
-function plusSlides(n){
-    showSlides(slideIndex += n);
+openBtn.onclick = function() {
+    popup.style.display = 'block';
 }
 
-function currentSlide(n){
-    showSlides(slideIndex = n);
+closeBtn.onclick = function() {
+    popup.style.display = 'none';
 }
 
-function showSlides(n){
-    let i;
-    let slides = document.getElementsByClassName("first_screen");
-    let dots = document.getElementsByClassName("dot");
-
-    if (n > slides.length){
-        slideIndex = 1
-    } else if (n < 1) {
-        slideIndex = slides.length
+window.onclick = function(event) {
+    if(event.target == popup) {
+        popup.style.display = 'none';
     }
-
-    for (i = 0; i < slides.length; i++){
-        slides[i].style.display = "none";
-    }
-
-    for (i = 0; i < dots.length; i ++){
-        dots[i].className = dots[i].className.replace("active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += "active";
 }
