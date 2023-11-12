@@ -111,25 +111,33 @@ a{
   margin-top: 12px;
 }
 
-.email_sectiom{
-}
-
 .email_section-title{
   color: #fff;
 }
 
 .input_block{
-  align-items: center;
-  padding: 9px 11px 13px 11px;
+  margin-top: 24px;
 }
 
 .email_input{
+  width: 300px;
+  padding: 9px 12px;
   background-color: #4D4D4D;
   border: none;
+  border-radius: 8px;
+  color: #F5F7FA;
+  font-size: 14px;
 }
 
 .email_input::placeholder{
-  color: #717171;
+  color: #F5F7FA;
+  font-size: 14px;
+}
+
+.input_img{
+  margin-top: 8px;
+  position: absolute;
+  right: 10em;
 }
 
 .first_screen{
@@ -227,8 +235,9 @@ a{
 .option-title{
   font-size: 28px;
   text-align: center;
+  margin: 0 auto;
   margin-top: 16px;
-max-width: 270px;
+  max-width: 240px;
 }
 
 .option-undertext{
@@ -313,4 +322,177 @@ max-width: 270px;
   height: 100px;
   background-color: aqua;
 }
+
+.amount_information-section{
+  background-color: #F5F7FA;
+  margin-top: 50px;
+}
+
+.amount_information-inner{
+  padding: 64px 0;
+  display: flex;
+  gap: 205px;
+  align-items: center;
+}
+
+.first_block-title{
+  font-size: 36px;
+} 
+
+.first_block-undertext{
+  margin-top: 8px;
+}
+
+.amount_list{
+  display: flex;
+  gap: 30px;
+}
+
+.amount_list-item{
+  width: 255px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.amount_item-title{
+  font-size: 28px;
+  color: #4D4D4D;
+}
+
+.design_info-section{
+  margin-top: 50px;
+}
+
+.design_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.disign_info-text{
+  margin-top: 60px;
+  max-width: 610px;
+}
+
+.disign_info-title{
+  font-size: 36px;
+  color: #4D4D4D;
+}
+
+.disign_info-undertext{
+  margin-top: 16px;
+}
+
+.customers_section{
+  background-color: #F5F7FA;
+  margin-top: 50px;
+  padding: 33px 145px;
+}
+
+.customers_container{
+  max-width: 750px;
+  margin-left: auto;
+}
+
+.customers_name{
+  font-size: 20px;
+  color: #4CAF4F;
+  margin-top: 16px;
+  font-weight: 700;
+}
+
+.customers_magasin-name{
+  margin-top: 8px;
+}
+
+.customers_brands-block{
+  align-items: center;
+  margin-top: 32px;
+  display: flex;
+  gap: 41px;
+}
+
+.all_customers-btn{
+  color: #4CAF4F;
+  font-size: 24xp;
+  font-weight: 700;
+}
+
+.arrow{
+  color: #4CAF4F;
+}
+
+.new_marketing{
+  margin-top: 50px;
+}
+
+.new_marketing-title{
+  text-align: center;
+  font-size: 36px;
+  color: #4D4D4D;
+}
+
+.new_marketing-undertext{
+  max-width: 630px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.new_marketing-underblock{
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  margin-top: 210px;
+}
+
+.underblock-item{
+  background-color: #F5F7FA;
+  border-radius: 8px;
+}
+
+.underblock-text{
+  padding: 16px;
+  max-width: 285px;
+  text-align: center;
+  color: #4D4D4D;
+  font-size: 20px;
+}
+.underblock-btn{
+  font-size: 20px;
+  color: #4CAF4F;
+  text-align: center;
+}
+
+.last-section{
+  background-color: #F5F7FA;
+  margin-top: 95px;
+  padding: 32px;
+}
+
+.last-title{
+  text-align: center;
+  font-size: 64px;
+  max-width: 890px;
+  margin: 0 auto;
+  color: #263238;
+}
+.getdemo{
+  text-align: center;
+}
+.get_demo-btn{
+  border: none;
+  font-size: 20px;
+  padding: 14px 32px;
+  background-color: #4CAF4F;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+.arrow_white{
+  color: #fff;
+}
+
+
 
